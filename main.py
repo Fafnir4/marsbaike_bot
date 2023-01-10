@@ -77,7 +77,7 @@ else:
 
 
 
-@bot.message_handler(content_types=['text'])
+@dp.message_handler(content_types=['text'])
 def get_text_messages(message):
     if message.text == "неделя" or message.text == 'Неделя':
         bot.send_message(message.chat.id, f"Привет, эта неделя {week}.")
