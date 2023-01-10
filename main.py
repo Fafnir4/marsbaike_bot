@@ -1,6 +1,6 @@
 import telebot
 import datetime
-bot = telebot('5988164556:AAFq8JDgVQtpVIF_xD5NkHF77ko25_9eUXI')
+bot = telebot.Telebot('5988164556:AAFq8JDgVQtpVIF_xD5NkHF77ko25_9eUXI')
 
 day = str(datetime.date.today())
 today = day[8:10]
