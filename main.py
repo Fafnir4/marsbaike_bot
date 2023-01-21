@@ -108,7 +108,7 @@ def get_text_messages(message):
     elif message.text == 'адил':
         bot.send_message(message.chat.id, 'гейний')
            #elif message.text == "аудитория":
-    #    bot.send_message(message.chat.id, para())
+    #    bot.send_message(message.chat.id, para()) .!.
 
 
 bot.polling(none_stop=True, interval=0)
